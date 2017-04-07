@@ -39,20 +39,7 @@ application中调用
 @Table(name = "Items", id = BaseColumns._ID)
 public class Item extends Model {...}
 ```
-### maven地址
-密码就放上面了
-```groovy
-repositories {
-    maven {
-        url "http://mvn.ws.netease.com/nexus/content/repositories/releases"
-        credentials {
-            username 'tangyang'
-            password 'ning811205~'
-        }
-    }
-}
- compile 'com.netease.activeandroid:xjtactiveandroid:1.0.+'
-```
+
 
 ### 文档
 [activeandroid](https://github.com/pardom/ActiveAndroid)
